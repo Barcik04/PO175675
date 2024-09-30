@@ -1,0 +1,165 @@
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Podaj liczbe a: ");
+//        int num1 = scanner.nextInt();
+//
+//        System.out.print("Podaj liczbe b: ");
+//        int num2 = scanner.nextInt();
+//
+//        int sum = num1 + num2;
+//
+//        System.out.println("Wynik " + num1 + " + " + num2 + " to " + sum);
+//
+//        scanner.close();
+//    }
+//}
+
+
+
+
+
+
+
+
+
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("put in any number: ");
+//        long num = scanner.nextLong();
+//
+//        System.out.print("Sum of separate digits is: " + Suming(num));
+//
+//        scanner.close();
+//    }
+//
+//    public static long Suming(long num) {
+//        long sum = 0;
+//
+//        while (num != 0) {
+//            sum += num % 10;
+//            num /= 10;
+//        }
+//
+//        return sum;
+//    }
+//}
+
+
+
+
+
+
+
+
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Write a sentence: ");
+//        char[] text = scanner.nextLine().toCharArray();
+//
+//        Reversing(text);
+//
+//        scanner.close();
+//    }
+//
+//    public static void Reversing(char[] text) {
+//        for (int i = text.length - 1; i >= 0; i--) {
+//            System.out.print(text[i]);
+//        }
+//    }
+//}
+
+
+
+
+//
+//
+//
+//
+//
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int letters = 0, numbers = 0, other = 0;
+//
+//        System.out.print("Put in a sentence: ");
+//        char[] text = scanner.nextLine().toCharArray();
+//
+//        for (int i = 0; i < text.length; i++) {
+//            if (Character.isLetter(text[i])) {
+//                letters++;
+//            } else if (Character.isDigit(text[i])) {
+//                numbers++;
+//            } else {
+//                other++;
+//            }
+//        }
+//
+//        System.out.println("number of characters that are letters: " + letters);
+//        System.out.println("number of characters that are numbers: " + numbers);
+//        System.out.println("the rest of characters: " + other);
+//
+//        scanner.close();
+//    }
+//}
+//
+//
+//
+//
+//
+
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        String test = "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33";
+//
+//        count(test);
+//    }
+//
+//    public static void count(String x) {
+//        char[] ch = x.toCharArray();
+//
+//        int letter = 0;
+//        int space = 0;
+//        int num = 0;
+//        int other = 0;
+//
+//        for (int i = 0; i < x.length(); i++) {
+//            if (Character.isLetter(ch[i])) {
+//                letter++;
+//            }
+//            else if (Character.isDigit(ch[i])) {
+//                num++;
+//            }
+//            else if (Character.isSpaceChar(ch[i])) {
+//                space++;
+//            }
+//            else {
+//                other++;
+//            }
+//        }
+//
+//        System.out.println("The string is : Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33");
+//
+//        System.out.println("letter: " + letter);
+//        System.out.println("space: " + space);
+//        System.out.println("number: " + num);
+//        System.out.println("other: " + other);
+//    }
+//}
+
+
