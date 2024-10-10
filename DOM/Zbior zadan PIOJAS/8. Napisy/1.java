@@ -8,7 +8,7 @@ public class Main {
             chars[i] = chars[chars.length - 1 - i];
             chars[chars.length - 1 - i] = temp;
         }
-
-        System.out.println(chars);
+        String reversedWord = new String(chars);
+        System.out.println(reversedWord);
     }
 }
